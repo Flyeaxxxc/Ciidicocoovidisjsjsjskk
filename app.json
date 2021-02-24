@@ -1,0 +1,28 @@
+{
+  "name": "botCbin",
+  "description": "A Userbot Based On Telethon By Friday Devs",
+  "logo": "https://telegra.ph/file/b4e1e36c6b1fcb32dd997.jpg",
+  "stack": "container",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": ""
+    },
+    "TOKEN": {
+      "description": "Enter TOKEN Here ",
+      "value": ""
+    },
+    "MODE": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}
