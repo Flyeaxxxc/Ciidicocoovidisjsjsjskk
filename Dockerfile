@@ -1,8 +1,8 @@
 FROM python:3.9
 
 RUN pip install --upgrade pip \
-	&& mkdir /app
-ADD ./app
+	&& mkdir. /app
+ADD . /app
 
 WORKDIR /app
 
